@@ -1,0 +1,95 @@
+body {
+    text-align: center;
+}
+
+#header {
+    background-color: #ad9d9d;
+}
+
+#header-img {
+    width: 70%;
+}
+
+.navbar {
+    /* padding: 0 0 4.5rem; */
+}
+
+.nav-link {
+    color: white;
+}
+
+.navbar-brand {
+    color: azure;
+}
+
+.big-header {
+    font-family: "Montserrat-Black";
+    size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 800;
+    margin: 20px;
+}
+
+.download-btn {
+    margin: 5% 3% 5% 0%;
+}
+
+
+/* features */
+
+#features {
+    /* padding: 7% 15%; */
+    position: relative;
+    z-index: 1;
+}
+
+.feature-box {
+    padding: 5%;
+}
+
+.icon {
+    color: #d9adad;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #fccbcb;
+}
+
+#pricing {
+    padding: 100px;
+    background-color: #d9adad;
+}
+
+.price-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+.card-header {
+    background-color: #fccbcb;
+}
+
+#contact {
+    background-color: #fccbcb;
+}
+
+#footer {}
+
+.footericon {
+    margin: 20px 20px;
+}
+
+@media(max-width:1020px) {
+    #title {
+        text-align: center;
+    }
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+}
